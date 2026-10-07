@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.domen.apollochunks.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ChunkHolderAccessor",
+    "ChunkMapAccessor",
+    "ChunkMapMixin",
+    "DistanceManagerMixin",
+    "ServerLevelMixin",
+    "TicketTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

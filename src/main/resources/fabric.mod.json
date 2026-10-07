@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "apollochunks",
+  "version": "${version}",
+  "name": "ApolloChunks",
+  "description": "Carpet extension: chunks around Carpet fake players load before real players' chunks.",
+  "authors": [
+    "domen"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.domen.apollochunks.ApolloChunks"
+    ]
+  },
+  "mixins": [
+    "apollochunks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "carpet": ">=26.3"
+  }
+}

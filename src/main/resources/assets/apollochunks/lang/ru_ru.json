@@ -1,0 +1,8 @@
+{
+  "carpet.rule.fakePlayerChunkPriority.desc": "Чанки вокруг ботов Carpet грузятся раньше чанков живых игроков.",
+  "carpet.rule.fakePlayerChunkPriority.extra.0": "У ботов свой троттлер тикетов загрузки (4 чанка за раз на измерение, как в ванилле), живые игроки его не занимают,",
+  "carpet.rule.fakePlayerChunkPriority.extra.1": "а генерация и свет их чанков идут раньше чанков живых игроков, ближние к боту первыми.",
+  "carpet.rule.fakePlayerChunkPriority.extra.2": "Какие чанки загружены и с каким уровнем, остаётся как в ванилле.",
+  "carpet.rule.fakePlayerChunkUpdateEveryTick.desc": "Бот сдвигает зону загрузки каждый тик, когда пересекает границу секции, как живой игрок.",
+  "carpet.rule.fakePlayerChunkUpdateEveryTick.extra.0": "Carpet делает это раз в 10 тиков, поэтому быстрый бот влетает в ещё не загруженные чанки."
+}
